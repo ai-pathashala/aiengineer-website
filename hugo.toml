@@ -1,0 +1,175 @@
+######################## default configuration ####################
+baseURL = "https://www.ai-engineer.in"
+title = "The AI Engineer"
+theme = "gojournal-hugo"
+timeZone = "Asia/Kolkata"
+pagination.pagerSize = 6 # see https://gohugo.io/extras/pagination/
+summaryLength = 10 # see https://gohugo.io/content-management/excerpts/
+disableLanguages = [
+    "fr"
+]
+
+[build]
+noJSConfigInAssets = false
+useResourceCacheWhen = 'fallback'
+[build.buildStats]
+enable = true
+[[build.cachebusters]]
+source = 'assets/.*\.(js|ts|jsx|tsx)'
+target = '(js|scripts|javascript)'
+[[build.cachebusters]]
+source = 'assets/.*\.(css|sass|scss)$'
+target = '(css|styles|scss|sass)'
+[[build.cachebusters]]
+source = 'assets/.*\.(.*)$'
+target = '$1'
+
+[services]
+[services.googleAnalytics]
+ID = '' # see https://gohugo.io/templates/internal/#configure-google-analytics
+
+[services.disqus]
+shortname = 'themefisher-template' # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[imaging]
+# See https://github.com/disintegration/imaging
+quality = 90
+resampleFilter = "lanczos"
+
+[caches]
+[caches.images]
+dir = ":resourceDir/_gen"
+maxAge = "720h"
+
+[caches.assets]
+dir = ":resourceDir/_gen"
+maxAge = "720h"
+
+[markup]
+[markup.goldmark.renderer]
+unsafe = true
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+[[params.plugins.js]]
+link = "plugins/instafeed/instafeed.min.js"
+
+# main menu
+[[menu.main]]
+name = "About"
+URL = "about/"
+weight = 1
+  
+[[menu.main]]
+name = "Contact"
+URL = "contact/"
+weight = 2
+
+# footer menu
+[[menu.footer]]
+name = "contact"
+URL = "contact/"
+weight = 1
+
+[[menu.footer]]
+name = "privacy policy"
+URL = "privacy-policy/"
+weight = 2
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+
+description = "Context engineering provides the technical content you need to desgin, assemble, and optimize the LLM context when building AI applications."
+author = "Ravikanth Chaganti"
+
+contact_form_action = "#" # contact form works with https://formspree.io
+google_analitycs_id = "" # your id
+
+sidebar = "false"
+
+# Preloader
+[params.preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# Subscription
+[params.subscription]
+enable = true
+
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
+
+# promotion 
+[params.promotion]
+enable = true
+image = "images/promotion.png"
+link = "#"
+
+# Instagram feed
+[params.instafeed]
+enable = true
+user_id = "4044026246"
+access_token = "4044026246.1677ed0.8896752506ed4402a0519d23b8f50a17"
+  
+############################# social site ########################
+[[params.social]]
+title = "facebook"
+icon = "ti-facebook"
+link = "#"
+
+[[params.social]]
+title = "twitter"
+icon = "ti-twitter-alt"
+link = "#"
+
+[[params.social]]
+title = "instagram"
+icon = "ti-instagram"
+link = "#"
+
+[[params.social]]
+title = "github"
+icon = "ti-github"
+link = "#"
+
+[[params.social]]
+title = "linkedin"
+icon = "ti-linkedin"
+link = "#"
+
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+
+[Languages.en.params]
+home = "Home"
+# subscription
+subscription_title = "Join Newsletter for the latest content"
+subscription_content = "Subscribe now to get notified about new content on context engineering."
+# copyright
+copyright = "Copyright &copy; 2025 [Ravikanth Chaganti](https://ravichaganti.com)"
