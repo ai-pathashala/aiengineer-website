@@ -36,12 +36,10 @@
         {{ end }}
         <div class="content">{{.Content}}</div>
 
-        <!-- comments -->
-        {{ if site.Config.Services.Disqus.Shortname }}
+        <!-- comments -->        
         <div class="mt-5">
-          {{ template "_internal/disqus.html" . }}
+          {{ partial "comments.html" . }}
         </div>
-        {{ end }}
       </div>
       <!-- right sidebar -->
       {{ if eq $sidebar "right" }}
