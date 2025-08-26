@@ -8,7 +8,7 @@ description: "This is meta description"
 # Taxonomies
 categories: ["photography"]
 # post type
-type: "featured" # all type (featured, trending, regular)
+type: "regular" # all type (featured, trending, regular)
 draft: false
 ---
 

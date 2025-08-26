@@ -1,5 +1,5 @@
 ---
-title: "A Funky & Eclectic Austin Urban An House Tour"
+title: "A Trending post"
 date: 2020-03-14T15:40:24+06:00
 # post thumb
 image : "images/featured-post/post-3.png"
@@ -8,7 +8,7 @@ description: "This is meta description"
 # Taxonomies
 categories: ["photography", "featured"]
 # post type
-type: "featured" # all type (featured, trending, regular)
+type: "trending" # all type (featured, trending, regular)
 draft: false
 ---
 

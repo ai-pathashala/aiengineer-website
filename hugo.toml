@@ -28,8 +28,8 @@ target = '$1'
 [services.googleAnalytics]
 ID = '' # see https://gohugo.io/templates/internal/#configure-google-analytics
 
-[services.disqus]
-shortname = 'themefisher-template' # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
+#[services.disqus]
+#shortname = 'themefisher-template' # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
