@@ -82,21 +82,21 @@ name = "About"
 URL = "about/"
 weight = 1
   
-[[menu.main]]
-name = "Contact"
-URL = "contact/"
-weight = 2
+#[[menu.main]]
+#name = "Contact"
+#URL = "contact/"
+#weight = 2
 
 # footer menu
-[[menu.footer]]
-name = "contact"
-URL = "contact/"
-weight = 1
+#[[menu.footer]]
+#name = "contact"
+#URL = "contact/"
+#weight = 1
 
-[[menu.footer]]
-name = "privacy policy"
-URL = "privacy-policy/"
-weight = 2
+#[[menu.footer]]
+#name = "privacy policy"
+#URL = "privacy-policy/"
+#weight = 2
 
 #################### default parameters ################################
 [params]

@@ -1,6 +1,5 @@
 ---
-title: "Lets Contact Us"
-# description
+title: "Connect with us"
 description: "this is meta description"
 draft: false
 ---

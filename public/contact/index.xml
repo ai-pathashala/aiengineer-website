@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lets Contact Us on The AI Engineer</title>
+    <title>Connect with us on The AI Engineer</title>
     <link>http://localhost:1313/contact/</link>
-    <description>Recent content in Lets Contact Us on The AI Engineer</description>
+    <description>Recent content in Connect with us on The AI Engineer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/contact/index.xml" rel="self" type="application/rss+xml" />
