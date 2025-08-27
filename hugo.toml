@@ -1,13 +1,9 @@
-######################## default configuration ####################
 baseURL = "https://www.ai-engineer.in"
 title = "The AI Engineer"
 theme = "gojournal-hugo"
 timeZone = "Asia/Kolkata"
-pagination.pagerSize = 6 # see https://gohugo.io/extras/pagination/
-summaryLength = 10 # see https://gohugo.io/content-management/excerpts/
-disableLanguages = [
-    "fr"
-]
+pagination.pagerSize = 6
+summaryLength = 10
 
 [build]
 noJSConfigInAssets = false
@@ -24,9 +20,9 @@ target = '(css|styles|scss|sass)'
 source = 'assets/.*\.(.*)$'
 target = '$1'
 
-[services]
-[services.googleAnalytics]
-ID = '' # see https://gohugo.io/templates/internal/#configure-google-analytics
+#[services]
+#[services.googleAnalytics]
+#ID = '' # see https://gohugo.io/templates/internal/#configure-google-analytics
 
 #[services.disqus]
 #shortname = 'themefisher-template'
@@ -105,10 +101,10 @@ logo = "images/logo.png"
 description = "Context engineering provides the technical content you need to desgin, assemble, and optimize the LLM context when building AI applications."
 author = "Ravikanth Chaganti"
 
-contact_form_action = "#" # contact form works with https://formspree.io
-google_analitycs_id = "" # your id
+#contact_form_action = "#" # contact form works with https://formspree.io
+#google_analitycs_id = "" # your id
 
-sidebar = "false"
+sidebar = "left"
 
 # Preloader
 [params.preloader]
@@ -117,48 +113,48 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Subscription
 [params.subscription]
-enable = true
+enable = false
 
-mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
+mailchimp_form_action = ""
+mailchimp_form_name = ""
 
 # promotion 
-[params.promotion]
-enable = true
-image = "images/promotion.png"
-link = "#"
+# [params.promotion]
+# enable = true
+# image = "images/promotion.png"
+# link = "#"
 
 # Instagram feed
-[params.instafeed]
-enable = true
-user_id = "4044026246"
-access_token = "4044026246.1677ed0.8896752506ed4402a0519d23b8f50a17"
+#[params.instafeed]
+#enable = true
+#user_id = ""
+#access_token = ""
   
 ############################# social site ########################
-[[params.social]]
-title = "facebook"
-icon = "ti-facebook"
-link = "#"
+#[[params.social]]
+#title = "facebook"
+#icon = "ti-facebook"
+#link = "#"
 
 [[params.social]]
 title = "twitter"
 icon = "ti-twitter-alt"
-link = "#"
+link = "https://x.com/ravikanth"
 
-[[params.social]]
-title = "instagram"
-icon = "ti-instagram"
-link = "#"
+#[[params.social]]
+#title = "instagram"
+#icon = "ti-instagram"
+#link = "#"
 
 [[params.social]]
 title = "github"
 icon = "ti-github"
-link = "#"
+link = "https://github.com/rchaganti"
 
 [[params.social]]
 title = "linkedin"
 icon = "ti-linkedin"
-link = "#"
+link = "https://www.linkedin.com/in/rchaganti/"
 
 [Languages.en]
 languageName = "En"
