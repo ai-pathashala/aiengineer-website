@@ -13,13 +13,13 @@ body {
   line-height: 1.2;
   font-family: "Lora", sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 15px;
+  font-size: 18px;
   color: #666; }
 
 p, .paragraph {
   font-weight: 400;
   color: #666;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.7;
   font-family: "Lora", sans-serif; }
 
