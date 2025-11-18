@@ -13,11 +13,13 @@
 <section class="py-4">
   <div class="container">
     <div class="row">
+      <!--
       {{ if .Params.Image }}
       <div class="col-12 mb-4">
-        <img src="{{ .Params.Image | absURL }}" alt="{{ $.Title }}" class="img-fluid w-100">
+        <img src="{{ .Params.Image | absURL }}" alt="{{ $.Title }}" class="img-fluid w-50">
       </div>
       {{ end }}
+       -->
       <!-- left sidebar -->
       {{ $sidebar:= .Site.Params.sidebar }}
       {{ $layout:= .Site.Params.layout }}

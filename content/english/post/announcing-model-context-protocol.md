@@ -1,15 +1,11 @@
 ---
-title: "A Funky & Eclectic Austin Urban An House Tour"
-date: 2020-03-14T16:40:24+06:00
-# post thumb
-image : ""
-# description
+title: "Announcing Mastering Model Context Protocol"
+date: 2025-09-27
+image : "images/post/mcp.png"
 description: "This is meta description"
-# Taxonomies
-categories: ["travelling"]
-# post type
-type: "trending" # all type (featured, trending, regular)
-draft: false
+categories: ["book"]
+type: "featured"
+draft: true
 ---
 
 It’s no secret that the digital industry is booming. From exciting startups to global brands, companies

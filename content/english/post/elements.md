@@ -2,14 +2,15 @@
 title: "Elemets"
 date: 2020-03-14T15:40:24+06:00
 # post thumb
-image : "images/post/post-1.png"
+image : ""
 # description
 description: "This is meta description"
 # Taxonomies
 categories: ["elements"]
 # post type
 type: "regular" # all type (featured, trending, regular)
-draft: false
+draft: true
+
 ---
 
 
@@ -18,13 +19,19 @@ draft: false
 Here is example of hedings. You can use this heading by following markdownify rules. For example: use `#` for heading 1 and use `######` for heading 6.
 
 # Heading 1
+
 ## Heading 2
+
 ### Heading 3
+
 #### Heading 4
+
 ##### Heading 5
+
 ###### Heading 6
 
 <hr>
+
 
 ##### Emphasis
 
@@ -38,7 +45,9 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 <hr>
 
+
 ##### Link
+
 [I'm an inline-style link](https://www.google.com)
 
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
@@ -63,11 +72,13 @@ Some text to show that the reference links can follow later.
 
 <hr>
 
+
 ##### Paragraph
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.
 
 <hr>
+
 
 ##### Ordered List
 
@@ -79,6 +90,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime 
 
 <hr>
 
+
 ##### Unordered List
 
 * List item
@@ -88,6 +100,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime 
 * List item
 
 <hr>
+
 
 #### Notice
 
@@ -104,6 +117,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime 
 {{< /notice >}}
 
 <hr>
+
 
 #### Tab
 
@@ -125,6 +139,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime 
 
 <hr>
 
+
 ### Collapse
 
 {{< collapse "collapse 1" >}}
@@ -141,6 +156,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime 
 
 <hr>
 
+
 ##### Code and Syntax Highlighting
 
 Inline `code` has `back-ticks around` it.
@@ -149,7 +165,7 @@ Inline `code` has `back-ticks around` it.
 var s = "JavaScript syntax highlighting";
 alert(s);
 ```
- 
+
 ```python
 s = "Python syntax highlighting"
 print s
@@ -157,11 +173,13 @@ print s
 
 <hr>
 
+
 ##### Blockquote
 
 > This is a blockquote example.
 
 <hr>
+
 
 ##### Inline HTML
 
@@ -171,6 +189,7 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
   <dt>Definition list</dt>
   <dd>Is something people use sometimes.</dd>
 
+
   <dt>Markdown in HTML</dt>
   <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
@@ -178,32 +197,35 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 
 <hr>
 
+
 ##### Tables
 
 Colons can be used to align columns.
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
+| Tables        |      Are      |  Cool |
+| ------------- | :-----------: | ----: |
 | col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| col 2 is      |   centered    |   $12 |
+| zebra stripes |   are neat    |    $1 |
 
 There must be at least 3 dashes separating each header cell.
 The outer pipes (|) are optional, and you don't need to make the 
 raw Markdown line up prettily. You can also use inline Markdown.
 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+| Markdown | Less      | Pretty     |
+| -------- | --------- | ---------- |
+| *Still*  | `renders` | **nicely** |
+| 1        | 2         | 3          |
 
 <hr>
+
 
 ##### Image
 
-![image](../../images/post/post-3.png)
+![image](C:\Users\ravik\images\post\post-3.png)
 
 <hr>
+
 
 ##### Youtube video
 

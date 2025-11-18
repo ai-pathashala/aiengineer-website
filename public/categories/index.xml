@@ -6,13 +6,27 @@
     <description>Recent content in Categories on The AI Engineer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Mar 2020 16:40:24 +0600</lastBuildDate>
+    <lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Travelling</title>
-      <link>http://localhost:1313/categories/travelling/</link>
-      <pubDate>Sat, 14 Mar 2020 16:40:24 +0600</pubDate>
-      <guid>http://localhost:1313/categories/travelling/</guid>
+      <title>Book</title>
+      <link>http://localhost:1313/categories/book/</link>
+      <pubDate>Sat, 27 Sep 2025 00:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/categories/book/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Notes</title>
+      <link>http://localhost:1313/categories/notes/</link>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/categories/notes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Inferencing</title>
+      <link>http://localhost:1313/categories/inferencing/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/categories/inferencing/</guid>
       <description></description>
     </item>
     <item>
@@ -20,48 +34,6 @@
       <link>http://localhost:1313/categories/elements/</link>
       <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
       <guid>http://localhost:1313/categories/elements/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Featured</title>
-      <link>http://localhost:1313/categories/featured/</link>
-      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
-      <guid>http://localhost:1313/categories/featured/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hosting</title>
-      <link>http://localhost:1313/categories/hosting/</link>
-      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
-      <guid>http://localhost:1313/categories/hosting/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hunting</title>
-      <link>http://localhost:1313/categories/hunting/</link>
-      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
-      <guid>http://localhost:1313/categories/hunting/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Photography</title>
-      <link>http://localhost:1313/categories/photography/</link>
-      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
-      <guid>http://localhost:1313/categories/photography/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Shooting</title>
-      <link>http://localhost:1313/categories/shooting/</link>
-      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
-      <guid>http://localhost:1313/categories/shooting/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Trending</title>
-      <link>http://localhost:1313/categories/trending/</link>
-      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
-      <guid>http://localhost:1313/categories/trending/</guid>
       <description></description>
     </item>
   </channel>

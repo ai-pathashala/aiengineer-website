@@ -104,7 +104,7 @@ author = "Ravikanth Chaganti"
 #contact_form_action = "#" # contact form works with https://formspree.io
 #google_analitycs_id = "" # your id
 
-sidebar = "left"
+sidebar = "false"
 
 # Preloader
 [params.preloader]
