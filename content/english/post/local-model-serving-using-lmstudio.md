@@ -1,16 +1,12 @@
 ---
 title: "Local model serving - Using LM Studio"
 date: 2025-07-15
-image : "/images/post/localllm.png"
+image: "/images/post/localllm.png"
 description: "There are several options available for running Large Language Model (LLM) inference locally. LM Studio is one such option. It is more comprehensive and offers some great features."
-categories: ["inferencing"]
+categories: ["inferencing", "local serving"]
 type: "trending"
 draft: false
 ---
-
-{{< notice "info" >}}
-  Last updated: 25th September 2025
-{{< /notice >}}
 
 In an earlier article, we looked at [Ollama for serving models locally](/post/local-model-serving-using-ollama/). While searching for various options to run models on my local machine, I came across LM Studio - Local AI, which is also available on your computer. LM Studio offers a comprehensive set of features compared to Ollama. In today's article, we will go over some of these features.
 
@@ -54,3 +50,7 @@ curl http://localhost:1234/v1/chat/completions \
 ```
 
 Compared to Ollama, LM Studio offers a comprehensive set of features for an API application developer. You can experiment with different aspects of model serving as you develop your AI application. In a later post, we will look at Docker Model Runner for local model serving.
+
+{{< notice "info" >}}
+  Last updated: 25th September 2025
+{{< /notice >}}

@@ -1,16 +1,12 @@
 ---
 title: "Local model serving - Using Docker model runner"
 date: 2025-07-16
-image : "/images/post/localllm.png"
+image: "/images/post/localllm.png"
 description: "Docker Model Runner — a faster, simpler way to run and test AI models locally, right from your existing workflow. Whether you’re experimenting with the latest LLMs or deploying to production, Model Runner brings the performance and control you need, without the friction."
-categories: ["inferencing"]
+categories: ["inferencing", "local serving"]
 type: "trending"
 draft: false
 ---
-
-{{< notice "info" >}}
-  Last updated: 30th September 2025
-{{< /notice >}}
 
 In the local model serving landscape, we have already looked at [Ollama](/post/local-model-serving-using-ollama/) and [LM Studio](/post/local-model-serving-using-lmstudio/). The other option I explored was [Docker Model Runner](https://www.docker.com/blog/introducing-docker-model-runner/) (DMR). For any developer, Docker is a part of the workflow. The DMR makes running a local model as simple as running a container. This feature was introduced as a beta in the Docker Desktop 4.40 release. The key features of DMR include:
 
@@ -104,3 +100,6 @@ curl http://localhost:12434/engines/llama.cpp/v1/chat/completions \
 }'
 ```
 
+{{< notice "info" >}}
+  Last updated: 30th September 2025
+{{< /notice >}}

@@ -1,16 +1,12 @@
 ---
 title: "Local model serving - Using Ollama"
 date: 2025-07-14
-image : "/images/post/localllm.png"
+images: "/images/post/localllm.png"
 description: "There are several options available for running Large Language Model (LLM) inference locally. Ollama is one such option and my favorite among all. Ollama offers access to a wide range of models and has recently enabled cloud-hosted models as well. It offers both CLI and GUI (chat interface) to interact with the loaded models."
-categories: ["inferencing"]
+categories: ["inferencing", "local serving"]
 type: "trending"
 draft: false
 ---
-
-{{< notice "info" >}}
-  Last updated: 29th September 2025
-{{< /notice >}}
 
 As an AI enthusiast, I always want quick access to large language models (LLMs) for experimenting with new tools and frameworks. We can always subscribe to cloud-hosted models such as OpenAI GPT or Anthropic Claude. However, these are expensive, and I prefer running a few models locally while still in the experimentation phase. Local execution also enables full customization and integration into local workflows, providing offline access and reduced latency for faster, more reliable responses. Additionally, it provides control over model updates and configurations, preventing disruptions caused by changes from cloud providers and enabling independent experimentation.
 
@@ -192,3 +188,7 @@ These models can be accessed at the command line as well as the cloud.
 ![Ollama GUI](/images/ollama-2.png)
 
 Overall, Ollama has been my go to way of serving models locally and quick experimentation. I have tried a few more methods that I will write about in the future articles. 
+
+{{< notice "info" >}}
+  Last updated: 29th September 2025
+{{< /notice >}}
