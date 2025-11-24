@@ -1,10 +1,10 @@
 ---
 title: "Local model serving - Using Ollama"
 date: 2025-07-14
-images: "/images/post/localllm.png"
+image: "/images/post/localllm.png"
 description: "There are several options available for running Large Language Model (LLM) inference locally. Ollama is one such option and my favorite among all. Ollama offers access to a wide range of models and has recently enabled cloud-hosted models as well. It offers both CLI and GUI (chat interface) to interact with the loaded models."
 categories: ["inferencing", "local serving"]
-type: "trending"
+type: "regular"
 draft: false
 ---
 
