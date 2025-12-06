@@ -1,6 +1,6 @@
 ---
-title: "Announcing Mastering Model Context Protocol"
-date: 2025-10-01
+title: "AI Engineering: Finetuning"
+date: 2025-08-07
 image : "images/post/ai-engineering.png"
 description: "This post is a part of my notes from reading the AI engineering book by Chip Huyen."
 categories: ["book","notes"]

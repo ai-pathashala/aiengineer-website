@@ -6,8 +6,15 @@
     <description>Recent content on The AI Engineer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Jul 2025 00:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Microsoft Agent Framework</title>
+      <link>http://localhost:1313/post/introduction-to-microsoft-agent-framework/</link>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/post/introduction-to-microsoft-agent-framework/</guid>
+      <description>&lt;p&gt;I have been following the Microsoft ecosystem for agent and agentic workflow development and have evaluated frameworks such as &lt;a href=&#34;https://github.com/microsoft/autogen&#34;&gt;AutoGen&lt;/a&gt; and &lt;a href=&#34;https://github.com/microsoft/semantic-kernel&#34;&gt;Semantic Kernel&lt;/a&gt;. In the past, I have written &lt;a href=&#34;https://ravichaganti.com/categories/autogen/&#34;&gt;briefly about AutoGen&lt;/a&gt;. I used Semantic Kernel, along with Azure AI Foundry, to experiment with a few enterprise-ready agentic scenarios. Both frameworks are useful in their own ways, and Semantic Kernel, with its enterprise-deployment readiness, became the go-to framework for many. Microsoft &lt;a href=&#34;https://devblogs.microsoft.com/foundry/introducing-microsoft-agent-framework-the-open-source-engine-for-agentic-ai-apps/&#34;&gt;announced plans to converge these frameworks&lt;/a&gt; into what it calls the Microsoft Agent Framework, which brings together the best parts of AutoGen and Semantic Kernel.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Local model serving - Using Foundry Local</title>
       <link>http://localhost:1313/post/local-model-serving-using-foundry-local/</link>

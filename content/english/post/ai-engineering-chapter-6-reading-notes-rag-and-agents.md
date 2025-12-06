@@ -1,5 +1,5 @@
 ---
-title: "AI Engineering: Prompt engineering"
+title: "AI Engineering: RAG and agents"
 date: 2025-08-06
 image : "images/post/ai-engineering.png"
 description: "This post is a part of my notes from reading the AI engineering book by Chip Huyen."

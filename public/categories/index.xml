@@ -6,8 +6,22 @@
     <description>Recent content in Categories on The AI Engineer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Jul 2025 00:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agents</title>
+      <link>http://localhost:1313/categories/agents/</link>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/categories/agents/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microsoft Agent Framework</title>
+      <link>http://localhost:1313/categories/microsoft-agent-framework/</link>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/categories/microsoft-agent-framework/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Inferencing</title>
       <link>http://localhost:1313/categories/inferencing/</link>
