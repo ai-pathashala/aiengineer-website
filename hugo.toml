@@ -98,7 +98,7 @@ weight = 1
 [params]
 logo = "images/logo.png"
 
-description = "Context engineering provides the technical content you need to desgin, assemble, and optimize the LLM context when building AI applications."
+description = "AI engineering provides the technical content you need to desgin, assemble, and optimize the LLM context when building AI applications."
 author = "Ravikanth Chaganti"
 
 #contact_form_action = "#" # contact form works with https://formspree.io
@@ -166,6 +166,6 @@ weight = 1
 home = "Home"
 # subscription
 subscription_title = "Join Newsletter for the latest content"
-subscription_content = "Subscribe now to get notified about new content on context engineering."
+subscription_content = "Subscribe now to get notified about new content on AI engineering."
 # copyright
 copyright = "Copyright &copy; 2025 [Ravikanth Chaganti](https://ravichaganti.com)"

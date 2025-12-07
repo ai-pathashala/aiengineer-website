@@ -14,9 +14,11 @@ Microsoft Agent Framework supports enterprise integrations using Microsoft 365 A
 
 ![Source: Microsoft](https://devblogs.microsoft.com/foundry/wp-content/uploads/sites/89/2025/10/Screenshot-2025-10-14-214120-1024x489.png)
 
+**Figure 1**: Agent Framework (Source: Microsoft)
+
 Microsoft Agent Framework supports [Agent](https://learn.microsoft.com/en-us/agent-framework/user-guide/agents/agent-types/) and [Workflow](https://learn.microsoft.com/en-us/agent-framework/user-guide/workflows/overview) orchestration. This enables LLM-driven reasoning and decision-making as well as business-logic driven deterministic agentic workflows. As a developer, you can choose what makes more sense for your use case. Agents and workflows are two primary capability categories that this framework offers. 
 
-Agents use LLMs as their brains, tools for accessing external APIs, and to perform actions. Because of their probabilistic nature, agents are best suited to scenarios where the input task is unstructured and cannot be easily defined in advance. Microsoft Agent Framework supports different types of agents for different use cases. The Azure AI Foundry Agents are used to create agents that use the Foundry Agent service. Besides this, it also supports Anthropic agents, Azure OpenAI, and OpenAI chat and response agents. 
+Agents use LLMs as their brains, tools for accessing external APIs, and to perform actions. Because of their probabilistic nature, agents are best suited to scenarios where the input task is unstructured and cannot be easily defined in advance. Microsoft Agent Framework supports different types of agents for different use cases. The Azure AI Foundry Agents are used to create agents that use the Foundry Agent service. In addition, it supports Anthropic agents, Azure OpenAI, and OpenAI chat and response agents. 
 
 Here is a quick example of an [Azure AI Foundry agent](https://learn.microsoft.com/en-us/agent-framework/user-guide/agents/agent-types/azure-ai-foundry-agent).
 
@@ -39,7 +41,7 @@ async def main():
 asyncio.run(main())
 ```
 
-Workflows are graph structures that connect multiple agents to perform complex, multi-step tasks. A workflow is well-suited to a predefined sequence of operations and may include multiple agents, external integrations, and human interactions. By defining the flow of work, a developer can control the execution path, leading to a more deterministic behavior. Microsoft Agent Framework derives its workflow orchestration capabilities from AutoGen and therefore supports sequential, concurrent (parallel), handoff (control transfer), group chat (collaborative conversations), and magentic (manager-coordinated) workflows.
+Workflows are graph structures that connect multiple agents to perform complex, multi-step tasks. A workflow is well-suited to a predefined sequence of operations and may include multiple agents, external integrations, and human interactions. By defining the flow of work, a developer can control the execution path, resulting in more deterministic behavior. Microsoft Agent Framework derives its workflow orchestration capabilities from AutoGen and therefore supports sequential, concurrent (parallel), handoff (control transfer), group chat (collaborative conversations), and magentic (manager-coordinated) workflows.
 
 Here is a quick example of a concurrent workflow.
 

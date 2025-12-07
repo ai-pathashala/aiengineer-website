@@ -6,8 +6,15 @@
     <description>Recent content in Articles on The AI Engineer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 03 Oct 2025 00:00:00 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started with Foundry Agents</title>
+      <link>http://localhost:1313/post/getting-started-with-foundry-agents/</link>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/post/getting-started-with-foundry-agents/</guid>
+      <description>&lt;p&gt;Microsoft Foundry (formerly Azure AI Foundry) is a unified system for building intelligent agents. It is a platform that provides models, tools, frameworks, and other aspects such as observability, guardrails, and enterprise-ready governance for creating AI agents. With the Foundry Agent service, developers can develop agents locally and deploy them to different environments seamlessly, leveraging the building blocks provided by Microsoft Foundry. Foundry Agent service provides the runtime that manages conversations, orchestrates tool calls, and integrates with identify and observability systems. As discussed in the previous article, agents use LLMs to reason and make decisions. Agents use tools to perform actions. Agents can participate in workflows or interact with other agents to achieve a bigger goal. This is achieved by treating agents as composable units.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Introduction to Microsoft Agent Framework</title>
       <link>http://localhost:1313/post/introduction-to-microsoft-agent-framework/</link>

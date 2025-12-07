@@ -112,6 +112,7 @@
       "post-category",
       "post-content",
       "post-date",
+      "post-slider",
       "post-title",
       "post-wrapper",
       "pr-lg-0",
@@ -143,6 +144,7 @@
     ],
     "ids": [
       "basics",
+      "chat-with-an-existing-agent",
       "cloud-models",
       "email",
       "first-name",
