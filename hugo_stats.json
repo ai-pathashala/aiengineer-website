@@ -38,6 +38,7 @@
       "ul"
     ],
     "classes": [
+      "active",
       "align-items-center",
       "bg-light",
       "bg-transparent",
@@ -108,11 +109,13 @@
       "overflow-hidden",
       "p-4",
       "p-lg-5",
+      "page-item",
+      "page-link",
+      "pagination",
       "pb-0",
       "post-category",
       "post-content",
       "post-date",
-      "post-slider",
       "post-title",
       "post-wrapper",
       "pr-lg-0",

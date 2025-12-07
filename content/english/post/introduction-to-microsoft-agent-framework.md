@@ -3,8 +3,8 @@ title: "Introduction to Microsoft Agent Framework"
 date: 2025-10-02
 image: "/images/post/maf.png"
 description: "Microsoft Agent Framework is an open-source development kit for building AI agents and multi-agent workflows."
-categories: ["Microsoft Agent Framework", "Agents"]
-type: "featured"
+categories: ["Microsoft", "Agent Framework", "Agents"]
+type: "trending"
 draft: false
 ---
 

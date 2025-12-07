@@ -4,7 +4,7 @@ date: 2025-07-17
 image: "/images/post/localllm.png"
 description: "There are several options available for running Large Language Model (LLM) inference locally. Foundry Local by Microsoft is a new entrant."
 categories: ["inferencing", "local serving"]
-type: "featured"
+type: "trending"
 draft: false
 ---
 

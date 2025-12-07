@@ -3,7 +3,7 @@ title: "Getting Started with Foundry Agents"
 date: 2025-10-03
 image: "/images/post/maf.png"
 description: "Microsoft Foundry (formerly Azure AI Foundry) is a unified system for building intelligent agents. It is a platform that provides models, tools, frameworks, and other aspects such as observability, guardrails, and enterprise-ready governance for creating AI agents."
-categories: ["Microsoft Foundry", "Agents"]
+categories: ["Microsoft", "Foundry", "Agents"]
 type: "featured"
 draft: false
 ---
