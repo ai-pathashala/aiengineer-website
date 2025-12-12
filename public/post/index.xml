@@ -9,6 +9,13 @@
     <lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Google ADK - Deep dive into LLM Agents</title>
+      <link>http://localhost:1313/post/google-adk-deep-dive-into-llmagents/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/post/google-adk-deep-dive-into-llmagents/</guid>
+      <description>&lt;p&gt;In the &lt;a href=&#34;https://ai-engineer.in/post/introduction-to-google-agent-development-kit/&#34;&gt;first article&lt;/a&gt; of this series on Google ADK, we looked at a quick introduction to LLM Agents in Google ADK. What we learned so far is just a tiny drop in the ocean. In addition to offering a simple construct (&lt;code&gt;Agent&lt;/code&gt; and &lt;code&gt;LlmAgent&lt;/code&gt;) for defining agents, ADK provides numerous powerful features and integrations. In today&amp;rsquo;s article, we will learn how to customize agent configuration.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Introduction to Google Agent Development Kit</title>
       <link>http://localhost:1313/post/introduction-to-google-agent-development-kit/</link>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0530</pubDate>

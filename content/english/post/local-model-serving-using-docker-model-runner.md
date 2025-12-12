@@ -4,16 +4,16 @@ date: 2025-07-16
 image: "/images/post/localllm.png"
 description: "Docker Model Runner — a faster, simpler way to run and test AI models locally, right from your existing workflow. Whether you’re experimenting with the latest LLMs or deploying to production, Model Runner brings the performance and control you need, without the friction."
 categories: ["inferencing", "local serving"]
-type: "trending"
+type: "regular"
 draft: false
 ---
 
 In the local model serving landscape, we have already looked at [Ollama](/post/local-model-serving-using-ollama/) and [LM Studio](/post/local-model-serving-using-lmstudio/). The other option I explored was [Docker Model Runner](https://www.docker.com/blog/introducing-docker-model-runner/) (DMR). For any developer, Docker is a part of the workflow. The DMR makes running a local model as simple as running a container. This feature was introduced as a beta in the Docker Desktop 4.40 release. The key features of DMR include:
 
 - Serve models on OpenAI-compatible APIs
-- Pull and push models to and from Docker Hub
+- Pull and push models to and from Docker Hub.
 - Manage local models
-- Run and interact with models both from the command line and the Docker Desktop GUI
+- Run and interact with models both from the command line and the Docker Desktop GUI.
 - Package model [GGUF](https://huggingface.co/docs/hub/en/gguf) files as OCI artifacts and publish them to any container registry
 
 To get started, you can install Docker Desktop or upgrade to a version above 4.40. This installs the `docker-model` CLI plugin.

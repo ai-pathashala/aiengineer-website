@@ -4,7 +4,7 @@ date: 2025-12-01
 image: "/images/post/adk.png"
 description: "Google Agent Development Kit (ADK) is a flexible and modular framework for developing and deploying AI agents."
 categories: ["Google", "Agent Development Kit", "Agents"]
-type: "featured"
+type: "trending"
 draft: false
 ---
 
