@@ -6,8 +6,29 @@
     <description>Recent content in Categories on The AI Engineer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agent Development Kit</title>
+      <link>http://localhost:1313/categories/agent-development-kit/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/categories/agent-development-kit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agents</title>
+      <link>http://localhost:1313/categories/agents/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/categories/agents/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google</title>
+      <link>http://localhost:1313/categories/google/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/categories/google/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Agent Framework</title>
       <link>http://localhost:1313/categories/agent-framework/</link>
@@ -27,13 +48,6 @@
       <link>http://localhost:1313/categories/microsoft/</link>
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0530</pubDate>
       <guid>http://localhost:1313/categories/microsoft/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Agents</title>
-      <link>http://localhost:1313/categories/agents/</link>
-      <pubDate>Fri, 03 Oct 2025 00:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/categories/agents/</guid>
       <description></description>
     </item>
     <item>
