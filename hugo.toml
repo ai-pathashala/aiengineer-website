@@ -20,6 +20,11 @@ target = '(css|styles|scss|sass)'
 source = 'assets/.*\.(.*)$'
 target = '$1'
 
+[markup.highlight]
+style = 'github' # You can choose any theme from https://xyproto.github.io/splash/docs/all.html
+lineNumbersInTable = true
+lineNos = true
+
 #[services]
 #[services.googleAnalytics]
 #ID = '' # see https://gohugo.io/templates/internal/#configure-google-analytics

@@ -34,8 +34,11 @@
       "section",
       "small",
       "strong",
+      "table",
+      "td",
       "textarea",
       "title",
+      "tr",
       "ul"
     ],
     "classes": [
